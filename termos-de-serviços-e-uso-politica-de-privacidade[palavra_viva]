@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123d2b">
+  <meta name="description" content="Termos de Uso e Política de Privacidade do Palavra Viva, jogo cristão de palavras e quebra-cabeças desenvolvido por Jean Moraes.">
+  <title>Termos de Uso e Política de Privacidade — Palavra Viva</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #123d2b;
+      --green-2: #1d5b3f;
+      --gold: #d6ad55;
+      --paper: #fbfaf6;
+      --ink: #1f2a24;
+      --muted: #5f6c63;
+      --line: #e3e7df;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body {
+      margin: 0; background: var(--paper); color: var(--ink);
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--green-2); overflow-wrap: anywhere; }
+    .hero {
+      background: radial-gradient(circle at 85% 20%, #2e7050 0, transparent 32%),
+                  linear-gradient(135deg, #0d2e21, var(--green));
+      color: #fff; padding: 56px 20px 42px; border-bottom: 4px solid var(--gold);
+    }
+    .wrap { width: min(920px, calc(100% - 32px)); margin: 0 auto; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .mark {
+      display: grid; place-items: center; flex: 0 0 58px; height: 58px;
+      border: 1px solid rgba(255,255,255,.35); border-radius: 18px;
+      color: var(--gold); font-size: 29px; background: rgba(255,255,255,.07);
+    }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.12; letter-spacing: -.035em; }
+    .subtitle { margin: 8px 0 0; color: #e2eee5; font-size: 1.05rem; }
+    .meta { margin-top: 22px; color: #d4e4d8; font-size: .92rem; }
+    nav {
+      position: sticky; top: 0; z-index: 5; background: rgba(251,250,246,.96);
+      backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+    }
+    .nav-inner { display: flex; gap: 8px; padding: 12px 0; flex-wrap: wrap; }
+    .nav-inner a {
+      display: inline-block; padding: 8px 13px; border-radius: 999px; text-decoration: none;
+      color: var(--green); font-size: .94rem; font-weight: 650;
+    }
+    .nav-inner a:hover, .nav-inner a:focus { background: #e9efe8; outline: none; }
+    main { padding: 28px 0 54px; }
+    .notice {
+      border: 1px solid #e6d7b5; background: #fffaf0; padding: 16px 18px;
+      border-radius: 14px; margin: 0 0 24px;
+    }
+    .notice strong { color: #6c4c0e; }
+    .section-card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+      padding: clamp(20px, 4vw, 34px); margin: 18px 0; box-shadow: 0 6px 22px rgba(18,61,43,.035);
+    }
+    h2 { color: var(--green); margin: 0 0 14px; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.25; }
+    h3 { margin: 25px 0 7px; color: var(--green-2); font-size: 1.12rem; }
+    p { margin: 10px 0; }
+    ul { padding-left: 1.35rem; }
+    li { margin: 6px 0; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .76rem; font-weight: 800; color: #8a6a26; margin-bottom: 8px; }
+    .contact {
+      background: var(--green); color: #fff; border-radius: 18px; padding: 24px;
+      margin-top: 22px;
+    }
+    .contact h2 { color: #fff; }
+    .contact a { color: #f1d58e; }
+    footer { border-top: 1px solid var(--line); padding: 24px 16px 34px; color: var(--muted); text-align: center; font-size: .9rem; }
+    .small { font-size: .92rem; color: var(--muted); }
+    @media (max-width: 560px) {
+      .hero { padding: 38px 16px 30px; }
+      .wrap { width: min(100% - 24px, 920px); }
+      .brand { align-items: flex-start; }
+      .mark { flex-basis: 48px; height: 48px; border-radius: 14px; font-size: 24px; }
+      .nav-inner { gap: 2px; }
+      .nav-inner a { padding: 7px 10px; font-size: .88rem; }
+    }
+    @media print {
+      nav { position: static; }
+      body { background: white; }
+      .section-card { box-shadow: none; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand">
+        <div class="mark" aria-hidden="true">✦</div>
+        <div>
+          <h1>Palavra Viva</h1>
+          <p class="subtitle">Termos de Uso e Política de Privacidade</p>
+        </div>
+      </div>
+      <p class="meta">Desenvolvedor: Jean Moraes · Última atualização: 17 de outubro de 2026</p>
+    </div>
+  </header>
+
+  <nav aria-label="Navegação do documento">
+    <div class="wrap nav-inner">
+      <a href="#termos">Termos de Uso</a>
+      <a href="#privacidade">Privacidade</a>
+      <a href="#dados">Dados tratados</a>
+      <a href="#direitos">Seus direitos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <aside class="notice">
+      <strong>Importante para publicação:</strong> este documento descreve as funcionalidades previstas para o Palavra Viva, incluindo anúncios, compras no aplicativo, ranking e notificações. Antes de publicar ou atualizar o app, confirme que o texto corresponde exatamente aos SDKs, permissões e práticas habilitados na versão enviada ao Google Play. As configurações dos fornecedores podem mudar quais dados são tratados.
+    </aside>
+
+    <section class="section-card" id="termos">
+      <div class="eyebrow">Parte 1</div>
+      <h2>Termos de Uso</h2>
+      <p>Bem-vindo ao <strong>Palavra Viva</strong>, um jogo cristão de palavras e quebra-cabeças desenvolvido por <strong>Jean Moraes</strong>. Ao instalar ou utilizar o jogo, você concorda com estes Termos. Se não concordar, não utilize o aplicativo.</p>
+
+      <h3>1. Objetivo do jogo</h3>
+      <p>O Palavra Viva oferece desafios de palavras com temática cristã, recursos de apoio à jogabilidade e funcionalidades que podem incluir pontuação, ranking, anúncios, notificações e compras digitais. O conteúdo tem finalidade recreativa e educativa/devocional; não substitui aconselhamento pastoral, profissional ou orientação especializada.</p>
+
+      <h3>2. Uso permitido</h3>
+      <ul>
+        <li>Utilize o jogo de forma lícita e respeitosa.</li>
+        <li>Não tente explorar falhas, modificar indevidamente o aplicativo, fraudar pontuações, interferir nos serviços ou prejudicar outros jogadores.</li>
+        <li>Não utilize o jogo para distribuir conteúdo ilegal, abusivo ou que viole direitos de terceiros.</li>
+      </ul>
+
+      <h3>3. Compras e itens digitais</h3>
+      <p>O jogo pode oferecer moedas, dicas, revelações de letras, recursos de ajuda, pacotes e itens cosméticos. Alguns itens são consumíveis e podem ser utilizados uma vez ou até o esgotamento; outros, quando identificados como permanentes na loja, ficam associados à conta ou ao ambiente de compra conforme as regras da plataforma.</p>
+      <p>As compras são processadas pelo Google Play e estão sujeitas aos termos, à disponibilidade, aos preços exibidos e às regras de reembolso da plataforma. Confirme os detalhes antes de comprar. Itens digitais não possuem valor monetário fora do jogo e não podem ser revendidos ou transferidos, salvo quando a plataforma ou a legislação aplicável determinar o contrário.</p>
+
+      <h3>4. Anúncios e recompensas</h3>
+      <p>O jogo pode exibir anúncios em formatos como banner, intersticial ou vídeo recompensado. Quando disponível, assistir a um anúncio recompensado é opcional e pode conceder o benefício indicado na tela. A opção de remover anúncios, se oferecida, aplica-se conforme a descrição apresentada na loja e pode não eliminar conteúdos promocionais que não sejam anúncios da rede publicitária.</p>
+
+      <h3>5. Ranking e serviços de terceiros</h3>
+      <p>O recurso “Ranking de Fé” pode utilizar os Serviços de Jogos do Google Play para exibir pontuações. A disponibilidade depende de conexão, compatibilidade, configurações do dispositivo e dos serviços de terceiros. O desenvolvedor não controla a disponibilidade contínua desses serviços nem suas regras próprias.</p>
+
+      <h3>6. Disponibilidade e atualizações</h3>
+      <p>O jogo é fornecido “como está” e pode receber correções, atualizações, alterações ou descontinuação de recursos. Buscaremos manter o funcionamento adequado, mas não garantimos disponibilidade ininterrupta, ausência absoluta de erros ou compatibilidade com todos os dispositivos.</p>
+
+      <h3>7. Propriedade intelectual</h3>
+      <p>O nome, a identidade visual, os elementos gráficos, textos e demais conteúdos próprios do Palavra Viva são protegidos pelas normas aplicáveis de propriedade intelectual. Não é permitido copiar, redistribuir, explorar comercialmente ou modificar esses elementos sem autorização, exceto nos casos permitidos por lei.</p>
+
+      <h3>8. Limitação de responsabilidade</h3>
+      <p>Na extensão permitida pela legislação aplicável, o desenvolvedor não será responsável por perdas indiretas decorrentes de indisponibilidade de serviços externos, falhas de rede, incompatibilidade do dispositivo ou uso inadequado do aplicativo. Nada nestes Termos exclui direitos do consumidor ou responsabilidades que não possam ser afastados por lei.</p>
+
+      <h3>9. Alterações destes Termos</h3>
+      <p>Estes Termos podem ser atualizados para refletir mudanças no jogo, na legislação ou nos serviços utilizados. A versão atual ficará disponível nesta página, com a data de atualização indicada no início do documento. O uso continuado após uma alteração representa ciência dos novos Termos, sem prejuízo de direitos legais aplicáveis.</p>
+
+      <h3>10. Lei aplicável</h3>
+      <p>Aplicam-se as leis da República Federativa do Brasil, respeitadas as normas obrigatórias de proteção ao consumidor e de proteção de dados. Eventuais conflitos serão resolvidos pelo foro competente conforme a legislação aplicável.</p>
+    </section>
+
+    <section class="section-card" id="privacidade">
+      <div class="eyebrow">Parte 2</div>
+      <h2>Política de Privacidade</h2>
+      <p>Esta Política explica como informações podem ser tratadas durante o uso do Palavra Viva. O objetivo é apresentar, de forma clara, os tipos de dados envolvidos, as finalidades e as opções disponíveis ao jogador.</p>
+
+      <h3>1. Quem é responsável</h3>
+      <p>Para dúvidas relacionadas a esta Política e ao tratamento de dados sob controle do desenvolvedor, entre em contato com <strong>Jean Moraes</strong> pelo e-mail <a href="mailto:anjeoidualc@gmail.com">anjeoidualc@gmail.com</a>.</p>
+
+      <h3>2. Informações que podem ser tratadas</h3>
+      <p>Conforme os recursos habilitados na versão instalada e as configurações dos serviços de terceiros, podem ser tratados:</p>
+      <ul>
+        <li><strong>Dados técnicos e de uso:</strong> informações do dispositivo, versão do sistema e do jogo, idioma, eventos de funcionamento, diagnóstico de falhas e interações necessárias à operação e melhoria do app, quando coletadas pelos serviços utilizados.</li>
+        <li><strong>Publicidade:</strong> identificadores de publicidade, informações sobre exibição ou interação com anúncios e dados usados para limitar frequência, medir desempenho ou personalizar anúncios, conforme as configurações e consentimentos aplicáveis do Google/AdMob.</li>
+        <li><strong>Compras:</strong> identificadores de transação, produtos adquiridos, estado da compra e informações necessárias para processar, validar ou restaurar compras. Os dados de pagamento são processados pelo Google Play; o desenvolvedor não recebe o número completo do cartão por meio do fluxo normal de compra do Google Play.</li>
+        <li><strong>Ranking:</strong> nome de jogador, perfil de Jogos do Google Play, pontuação e informações necessárias ao funcionamento do ranking, conforme as permissões e configurações da conta do jogador.</li>
+        <li><strong>Notificações:</strong> preferências e dados técnicos necessários para agendar ou entregar lembretes locais, se esse recurso estiver ativado.</li>
+        <li><strong>Dados salvos no dispositivo:</strong> configurações, progresso e estado de recursos do jogo podem ser armazenados localmente para manter a experiência entre sessões.</li>
+      </ul>
+      <p>Não envie informações pessoais em campos, nomes de jogador ou mensagens que não sejam necessários ao jogo. O Palavra Viva não solicita deliberadamente dados sensíveis, como dados de saúde, religião pessoal, biometria ou documentos de identificação. A temática cristã do jogo não significa que o desenvolvedor esteja inferindo ou registrando a crença religiosa do jogador.</p>
+
+      <h3>3. Para que as informações são usadas</h3>
+      <ul>
+        <li>Executar o jogo, salvar preferências e manter o progresso local.</li>
+        <li>Processar e validar compras, conceder itens e restaurar aquisições permanentes quando aplicável.</li>
+        <li>Exibir anúncios, conceder recompensas por anúncios e medir/prevenir abuso publicitário.</li>
+        <li>Disponibilizar pontuações e recursos de ranking, quando ativados.</li>
+        <li>Agendar notificações solicitadas ou permitidas pelo jogador.</li>
+        <li>Diagnosticar falhas, proteger a integridade do jogo e cumprir obrigações legais.</li>
+      </ul>
+
+      <h3>4. Compartilhamento com terceiros</h3>
+      <p>O Palavra Viva pode depender de serviços do Google, incluindo Google Play, Google Play Billing, Google Play Games Services e Google AdMob. Esses serviços podem tratar informações conforme suas próprias políticas e configurações para viabilizar compras, ranking, anúncios, segurança e funcionamento técnico. O desenvolvedor não controla integralmente as práticas independentes desses fornecedores.</p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a></li>
+        <li><a href="https://support.google.com/googleplay/answer/11416267" target="_blank" rel="noopener noreferrer">Informações sobre segurança dos dados no Google Play</a></li>
+      </ul>
+      <p>Não vendemos deliberadamente dados pessoais dos jogadores. Informações também poderão ser divulgadas quando exigido por lei, para proteger direitos e segurança, ou em uma transição legítima do projeto, observadas as salvaguardas aplicáveis.</p>
+
+      <h3>5. Publicidade, consentimento e escolhas</h3>
+      <p>A disponibilidade e a personalização de anúncios podem depender da região, da idade declarada, das configurações do dispositivo e das escolhas de consentimento aplicáveis. Quando exigido, o consentimento será solicitado por mecanismos apropriados. Você também pode revisar as configurações de publicidade e privacidade do seu dispositivo e da sua conta Google. A remoção de anúncios comprada no jogo não necessariamente desativa o tratamento técnico necessário para compras, ranking ou outros serviços.</p>
+
+      <h3>6. Crianças e adolescentes</h3>
+      <p>O jogo pode ser acessível a diferentes faixas etárias, mas a classificação etária e o público-alvo são definidos na ficha do Google Play. Pais ou responsáveis devem acompanhar o uso por crianças. Não buscamos coletar intencionalmente dados pessoais de crianças além do necessário à operação dos recursos e às regras da plataforma. Se você acredita que uma criança forneceu dados pessoais indevidamente, entre em contato para que possamos avaliar a solicitação.</p>
+
+      <h3>7. Retenção e segurança</h3>
+      <p>Dados locais podem permanecer no dispositivo até que sejam apagados pelo usuário, pelo sistema ou pela desinstalação, conforme o tipo de armazenamento. Dados tratados por Google Play, AdMob ou outros fornecedores seguem os períodos e controles definidos por esses serviços. Adotamos medidas razoáveis compatíveis com o projeto para reduzir riscos de acesso não autorizado, mas nenhum sistema é totalmente seguro.</p>
+
+      <h3>8. Transferências internacionais</h3>
+      <p>Os fornecedores de serviços podem processar dados em servidores localizados fora do Brasil. Quando isso ocorrer, o tratamento deverá observar as condições e salvaguardas previstas na legislação aplicável, inclusive a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD), conforme pertinente a cada fornecedor e operação.</p>
+    </section>
+
+    <section class="section-card" id="dados">
+      <div class="eyebrow">Transparência</div>
+      <h2>Dados tratados por recursos</h2>
+      <p>O quadro abaixo resume as finalidades previstas. O tratamento efetivo depende de quais integrações estejam habilitadas na versão publicada e das configurações dos serviços.</p>
+      <ul>
+        <li><strong>Jogo e progresso:</strong> manter configurações e progresso no dispositivo.</li>
+        <li><strong>AdMob:</strong> exibir e medir anúncios, incluindo anúncios recompensados quando disponíveis.</li>
+        <li><strong>Google Play Billing:</strong> processar compras e confirmar a entrega dos itens digitais.</li>
+        <li><strong>Google Play Games Services:</strong> permitir a participação no “Ranking de Fé” e a exibição de pontuações.</li>
+        <li><strong>Notificações:</strong> programar lembretes, se ativados e autorizados pelo jogador.</li>
+      </ul>
+      <p class="small">Esta página não substitui as declarações obrigatórias do formulário “Segurança dos dados”, a classificação etária, as declarações de anúncios ou outras informações exigidas pelo Google Play Console. Essas declarações devem refletir o comportamento real de todos os SDKs e bibliotecas incluídos no aplicativo.</p>
+    </section>
+
+    <section class="section-card" id="direitos">
+      <div class="eyebrow">Seus direitos</div>
+      <h2>9. Seus direitos e solicitações</h2>
+      <p>Nos termos da LGPD, quando aplicável, você pode solicitar confirmação do tratamento, acesso, correção, informações sobre compartilhamento, oposição ou eliminação de dados tratados com base legal adequada, além de outros direitos previstos em lei. Alguns registros podem precisar ser mantidos para cumprir obrigações legais, resolver disputas, prevenir fraude ou concluir transações.</p>
+      <p>Para fazer uma solicitação, envie um e-mail para <a href="mailto:anjeoidualc@gmail.com">anjeoidualc@gmail.com</a>, descrevendo o pedido e incluindo informações suficientes para entendermos a solicitação. Não envie senhas, dados completos de cartão ou documentos desnecessários. Podemos pedir esclarecimentos proporcionais para proteger a privacidade e evitar atender solicitações de terceiros não autorizados.</p>
+
+      <h3>10. Como apagar dados</h3>
+      <p>Você pode limpar os dados locais do jogo pelas configurações do Android ou desinstalar o aplicativo, observando que isso pode apagar o progresso armazenado somente no dispositivo. Dados vinculados aos serviços Google devem ser gerenciados também nas configurações e ferramentas desses serviços. Para solicitar ajuda sobre dados sob responsabilidade do desenvolvedor, use o e-mail de contato.</p>
+
+      <h3>11. Alterações na Política</h3>
+      <p>Esta Política poderá ser atualizada quando novas funções, integrações ou exigências legais forem introduzidas. A data no topo indicará a versão mais recente. Mudanças relevantes serão comunicadas dentro do jogo ou por outro meio adequado, quando necessário.</p>
+    </section>
+
+    <section class="contact" id="contato">
+      <h2>Contato do desenvolvedor</h2>
+      <p><strong>Jean Moraes</strong><br>
+      Palavra Viva — jogo cristão de palavras e quebra-cabeças</p>
+      <p>E-mail: <a href="mailto:anjeoidualc@gmail.com">anjeoidualc@gmail.com</a></p>
+      <p class="small" style="color:#d4e4d8">Para dúvidas sobre estes Termos, privacidade, compras ou solicitações relacionadas a dados, entre em contato por e-mail.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year">2026</span> Jean Moraes · Palavra Viva · Todos os direitos reservados.
+  </footer>
+  <script>
+    // Mantém o ano do rodapé atualizado sem depender de bibliotecas externas.
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
